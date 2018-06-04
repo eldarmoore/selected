@@ -1,0 +1,533 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+    color: #4c4c4c;
+    font-weight: 100;
+    font-size: 1.5em;
+    position: relative;
+    font-family: Arial, sans-serif;
+    background-color: rgb(249,249,249);
+}
+
+body .container {
+    width: 1400px;
+}
+.carousel > img {
+    rgba(255,240,0,0);
+}
+
+.page {
+    padding: 30px 0;
+}
+
+.page > p {
+    display: block;
+    width: 100px;
+}
+
+header .navbar-inverse {
+    background-color: rgba(255,255,255,0.0);
+    border: none;
+}
+
+header .inbody {
+    background-color: rgba(82,88,99,0.99);
+}
+
+header .inbody .navbar-brand img {
+    height: 20px;
+}
+
+header .inbody .navbar-brand {
+    margin-top: -15px;
+}
+
+header .navbar-default .navbar-nav a {
+    color: white;
+    padding: 5px 8px;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > .active > a:hover {
+    background-color: transparent;
+    color: #FFFFFF;
+}
+
+.navbar-collapse, .container > .navbar-header {
+    margin-top: 30px;
+}
+
+.navbar-nav > li > a {
+    padding: 2px 15px;
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+    text-decoration: underline;
+    text-decoration-color: #00B34B;
+    text-decoration-style: double;
+}
+.navbar-inverse .navbar-nav > li > a {
+    font-weight: 100;
+    color: #FFFFFF;
+}
+.navbar-nav > li > a.btn {
+    color: #FFFFFF;
+    background-color: #00B34B;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    font-size: 12px;
+    padding-left: 40px;
+    padding-right: 40px;
+    /*height: 60px;*/
+    /*width: 300px;*/
+}
+
+footer {
+    background-color: #525863;
+    padding-top: 40px;
+}
+.col-half-offset{
+    margin-left:4.166666667%
+}
+
+.team img {
+    width: 100%;
+}
+
+/* BOOTSTRAP OVERRIDE*/
+.navbar {
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-brand > img {
+    height: 40px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.content > p {
+    text-align: center;
+}
+
+footer .navbar-default .navbar-nav >li > a {
+    color: #fff;
+}
+
+footer hr {
+    border-color: #5A616D;
+    margin-left: -100%;
+}
+
+footer a.navbar-brand {
+    margin: 0;
+    padding: 0 20px 0 0;
+}
+
+footer .content > p {
+    color: #94989F;
+    text-align: left;
+}
+footer .navbar {
+    margin: 0;
+}
+footer .navbar-brand {
+    margin-top: 0;
+}
+footer .navbar-default {
+    margin-top: 30px;
+    background: transparent;
+}
+
+.icon ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.icon li {
+    color: #fff;
+    display: inline;
+    float: left;
+    margin-right: 5px;
+    line-height: 10px;
+}
+
+.icon li a {
+    color: #FFFFFF;
+    display: block;
+    font-size: 30px;
+    margin: 5px;
+}
+
+.icon li a:hover {
+    text-decoration: none;
+}
+
+footer a.fa {
+    color: #fff;
+    padding: 10px;
+    font-size: 14px;
+    width: 34px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background-color: #464B54;
+}
+
+footer a.fa:hover {
+    color: #464B54;
+    background-color: #fff;
+}
+
+.social {
+    display: block;
+    margin-top: 26px;
+}
+
+.social h3 {
+    margin: 3px 5px;
+}
+#social {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#social li {
+    color: #fff;
+    display: inline;
+    float: left;
+    margin-right: 5px;
+    line-height: 10px;
+}
+
+#social li a {
+    display: block;
+}
+
+#services {
+    background-image: url(../img/pixel-bg.png); background-repeat:no-repeat; background-position-y:-150px; background-size:100%;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+#services h2 {
+    margin-top: 30px;
+}
+
+/* TABS */
+
+#services button {
+    background-color: transparent;
+    border: none;
+    height: 100%;
+    width: 100%;
+}
+
+#services h3 {
+    font-weight: 100;
+    font-size: 18px;
+    margin-top: -5px;
+}
+
+#services .active h3 {
+    color: #00B34B;
+}
+
+#services h3:hover {
+    text-underline: #3c763d;
+}
+
+.s-line {
+    width: 120px;
+    position: relative;
+    /*top: 50%;*/
+    left: 50%;
+    margin-left: -60px;
+    line-height: 0;
+    vertical-align: 0;
+}
+
+#services > .content > .row {
+    margin-bottom: 10px;
+}
+
+#tabs-options {
+    margin-top: 30px;
+}
+
+#tabs-content {
+    margin-top: 210px;
+}
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: block;
+    padding: 6px 12px;
+    margin-top: 255px;
+    height: 500px;
+}
+
+.tablinks > img {
+    width: 85%;
+}
+
+/* END - TABS */
+
+#ourteam {
+    background-color: #ffffff;
+}
+
+.team {
+    padding: 10px;
+}
+/* Overlay */
+
+#ourteam .icon {
+    color: white;
+    font-size: 100px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(235, 235, 235, 0.6); /* Black see-through */
+    color: #f1f1f1;
+    width: 326px;
+    opacity:1;
+    color: black;
+    font-size: 20px;
+    padding: 20px;
+    text-align: left;
+    top: 276px;
+    margin-left: 2px;
+    margin-right: 6px;
+    margin-bottom: 6px;
+}
+
+.overlay h3 {
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+
+.overlay p {
+    font-family: arial;
+    margin-top: 0;
+    margin-left: 10px;
+    padding-top: 0;
+    font-weight: 100;
+}
+
+/* FADE IN EFFECT */
+
+.overlay2 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 357px;
+    width: 326px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(28,141,90,0.9);
+    top: 16px;
+    margin-left: 16px;
+}
+
+.team:hover .overlay2 {
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* END - FADE IN EFFECT*/
+
+#ourteam .carousel {
+    margin-bottom: 0;
+    /*padding: 0 40px 30px 40px;*/
+}
+
+.carousel-caption {
+    padding-bottom: 20%;
+}
+
+.carousel-caption h1 {
+    font-size: 60px;
+    color: #00B44C;
+}
+
+.carousel-caption p {
+    font-size: 30px;
+}
+
+.carousel-caption .btn {
+    color: #FFFFFF;
+    background-color: #00B34B;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    /*font-size: 12px;*/
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.carousel-caption .btn:hover {
+    background-color: #FFFFFF;
+    color: #00B34B;
+}
+/* The controlsy */
+.carousel-control {
+    font-size: 116px;
+    color: #32D18A;
+    left: -180px;
+    height: 110px;
+    width: 110px;
+    background-image: none !important;
+    text-shadow: none;
+    background-color: #E9E9E9;
+    border: 4px solid #FFFFFF;
+    border-radius: 50%;
+    margin-top: 90px;
+    opacity: unset;
+    line-height: 90px;
+}
+ .carousel-control.right {
+    right: -180px;
+}
+
+#ourteam .thumbnail {
+    display: block;
+    border: none;
+    position: relative;
+    max-width: 400px;
+    border: none;
+    background-color: transparent;
+}
+
+#ourteam .thumbnail img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+/*********** JOIN US ************/
+
+#joinus .type-field{
+    width: 80%;
+    height: 52px;
+    border: none;
+    border-bottom: 2px solid #E0E0E0;
+    margin-bottom: 15px;
+    background-color: #F0F2F1;
+    padding: 10px 20px;
+}
+
+#joinus input.btn.btn-success {
+    background-color: #00B34B;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    font-size: 18px;
+    height: 60px;
+    width: 300px;
+    margin-left: 236px;
+}
+
+#joinus > .content > p {
+    display: block;
+    margin-top: 20px;
+}
+
+#joinus > .content > .row > div {
+    display: block;
+    margin-top: 80px;
+}
+
+/* Contact */
+
+#joinus ul {
+    list-style-type: none;
+    margin-bottom: 40px;
+}
+
+#joinus #contact img {
+    width: 100px;
+    margin-right: 10px;
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+}
